@@ -1,0 +1,216 @@
+{
+   "count":10,
+   "filters":{
+      "limit":10
+   },
+   "competition":{
+      "id":2019,
+      "area":{
+         "id":2114,
+         "name":"Italy"
+      },
+      "name":"Serie A",
+      "code":"SA",
+      "plan":"TIER_ONE",
+      "lastUpdated":"2020-02-24T17:15:05Z"
+   },
+   "season":{
+      "id":530,
+      "startDate":"2019-08-24",
+      "endDate":"2020-05-24",
+      "currentMatchday":26,
+      "winner":"None"
+   },
+   "scorers":[
+      {
+         "player":{
+            "id":2076,
+            "name":"Ciro Immobile",
+            "firstName":"Ciro",
+            "lastName":"None",
+            "dateOfBirth":"1990-02-20",
+            "countryOfBirth":"Italy",
+            "nationality":"Italy",
+            "position":"Attacker",
+            "shirtNumber":"None",
+            "lastUpdated":"2020-02-25T05:13:45Z"
+         },
+         "team":{
+            "id":110,
+            "name":"SS Lazio"
+         },
+         "numberOfGoals":27
+      },
+      {
+         "player":{
+            "id":44,
+            "name":"Cristiano Ronaldo",
+            "firstName":"Cristiano Ronaldo",
+            "lastName":"None",
+            "dateOfBirth":"1985-02-05",
+            "countryOfBirth":"Portugal",
+            "nationality":"Portugal",
+            "position":"Attacker",
+            "shirtNumber":"None",
+            "lastUpdated":"2020-02-25T05:13:36Z"
+         },
+         "team":{
+            "id":109,
+            "name":"Juventus FC"
+         },
+         "numberOfGoals":21
+      },
+      {
+         "player":{
+            "id":3662,
+            "name":"Romelu Lukaku",
+            "firstName":"Romelu",
+            "lastName":"None",
+            "dateOfBirth":"1993-05-13",
+            "countryOfBirth":"Belgium",
+            "nationality":"Belgium",
+            "position":"Attacker",
+            "shirtNumber":"None",
+            "lastUpdated":"2020-02-25T05:13:59Z"
+         },
+         "team":{
+            "id":108,
+            "name":"FC Internazionale Milano"
+         },
+         "numberOfGoals":17
+      },
+      {
+         "player":{
+            "id":1907,
+            "name":"João Pedro Galvão",
+            "firstName":"João Pedro Geraldino",
+            "lastName":"None",
+            "dateOfBirth":"1992-03-09",
+            "countryOfBirth":"Brazil",
+            "nationality":"Brazil",
+            "position":"Midfielder",
+            "shirtNumber":10,
+            "lastUpdated":"2019-09-19T03:17:11Z"
+         },
+         "team":{
+            "id":104,
+            "name":"Cagliari Calcio"
+         },
+         "numberOfGoals":14
+      },
+      {
+         "player":{
+            "id":1845,
+            "name":"Josip Iličić",
+            "firstName":"Josip",
+            "lastName":"None",
+            "dateOfBirth":"1988-01-29",
+            "countryOfBirth":"Slovenia",
+            "nationality":"Slovenia",
+            "position":"Midfielder",
+            "shirtNumber":72,
+            "lastUpdated":"2020-01-09T03:22:20Z"
+         },
+         "team":{
+            "id":102,
+            "name":"Atalanta BC"
+         },
+         "numberOfGoals":14
+      },
+      {
+         "player":{
+            "id":1822,
+            "name":"Edin Džeko",
+            "firstName":"Edin",
+            "lastName":"None",
+            "dateOfBirth":"1986-03-17",
+            "countryOfBirth":"Bosnia and Herzegovina",
+            "nationality":"Bosnia and Herzegovina",
+            "position":"Attacker",
+            "shirtNumber":9,
+            "lastUpdated":"2020-02-20T04:11:15Z"
+         },
+         "team":{
+            "id":100,
+            "name":"AS Roma"
+         },
+         "numberOfGoals":12
+      },
+      {
+         "player":{
+            "id":57,
+            "name":"Luis Muriel",
+            "firstName":"Luis Fernando",
+            "lastName":"None",
+            "dateOfBirth":"1991-04-16",
+            "countryOfBirth":"Colombia",
+            "nationality":"Colombia",
+            "position":"Attacker",
+            "shirtNumber":"None",
+            "lastUpdated":"2020-02-25T05:14:06Z"
+         },
+         "team":{
+            "id":102,
+            "name":"Atalanta BC"
+         },
+         "numberOfGoals":12
+      },
+      {
+         "player":{
+            "id":2506,
+            "name":"Francesco Caputo",
+            "firstName":"Francesco",
+            "lastName":"None",
+            "dateOfBirth":"1987-08-06",
+            "countryOfBirth":"Italy",
+            "nationality":"Italy",
+            "position":"Attacker",
+            "shirtNumber":9,
+            "lastUpdated":"2019-08-26T05:10:19Z"
+         },
+         "team":{
+            "id":471,
+            "name":"US Sassuolo Calcio"
+         },
+         "numberOfGoals":11
+      },
+      {
+         "player":{
+            "id":3220,
+            "name":"Lautaro Martínez",
+            "firstName":"Lautaro Javier",
+            "lastName":"None",
+            "dateOfBirth":"1997-08-22",
+            "countryOfBirth":"Argentina",
+            "nationality":"Argentina",
+            "position":"Attacker",
+            "shirtNumber":"None",
+            "lastUpdated":"2020-02-25T05:13:34Z"
+         },
+         "team":{
+            "id":108,
+            "name":"FC Internazionale Milano"
+         },
+         "numberOfGoals":11
+      },
+      {
+         "player":{
+            "id":1854,
+            "name":"Andrea Petagna",
+            "firstName":"Andrea",
+            "lastName":"None",
+            "dateOfBirth":"1995-06-30",
+            "countryOfBirth":"Italy",
+            "nationality":"Italy",
+            "position":"Attacker",
+            "shirtNumber":37,
+            "lastUpdated":"2019-09-19T03:22:45Z"
+         },
+         "team":{
+            "id":1107,
+            "name":"SPAL 2013"
+         },
+         "numberOfGoals":10
+      }
+   ]
+}
