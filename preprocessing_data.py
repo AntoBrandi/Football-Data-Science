@@ -13,14 +13,14 @@ connection = http.client.HTTPConnection('api.football-data.org')
 headers = {'X-Auth-Token': config.api_key}
 
 # # request the top 10 scorers of italian A series
-# connection.request('GET', '/v2/competitions/SA/scorers', None, headers)
+# connection.request('GET', '/v2/competitions/SA/scorers?season=2018', None, headers)
 # response = json.loads(connection.getresponse().read().decode())
 # # make the json look nicer
 # content = json.dumps(response, indent=4, sort_keys=True)
 #
 # # create a data set for the top scorer
 # scorers = json_normalize(response['scorers'])
-# print(scorers.head())
+# print(scorers)
 
 # # request a match detail
 # connection.request('GET', '/v2/competitions/SA/matches?season=2018', None, headers)
