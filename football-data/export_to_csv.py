@@ -59,7 +59,7 @@ while year <= END_YEAR:
 
 
 # load the matched_d.csv and for each team, query the database
-matches = pd.read_csv('matches_df.csv')
+matches = pd.read_csv('../matches_df.csv')
 homeTeams = []
 for index, row in matches.iterrows():
     homeTeams.append(row['homeTeam.id'])

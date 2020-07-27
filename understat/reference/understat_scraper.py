@@ -4,11 +4,22 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-# wesite structure parameters
+'''
+-- REFERENCE SCRIPT --
+Script that scrapes the website understat.com in order to create a local database
+in csv format of useful information about football matches.
+This script is a reference for further developments in scraping the website understat.com
+-- REFERENCE SCRIPT --
+'''
+
+# website structure parameters
 base_url = 'https://understat.com/league'
 leagues = ['La_liga', 'EPL', 'Bundesliga', 'Serie_A', 'Ligue_1', 'RFPL']
 seasons = ['2014', '2015', '2016', '2017', '2018', '2019']
-# loop through series and years
+# request and download the url page of a given series in a given year
+# in order to get all the data, loop through each series in every year
+# and store in a list of urls created as follows
+# url = base_url + league[i] + '/' + season[j]
 url = base_url+'/'+leagues[3]+'/'+seasons[5]
 res = requests.get(url)
 soup = BeautifulSoup(res.content, "lxml")
@@ -23,10 +34,10 @@ for el in scripts:
         string_with_json_obj = el.text.strip()
 
 # remove useless character from the json string
+# and clean the JSON to be printed and deserialized
 ind_start = string_with_json_obj.index("('")+2
 ind_end = string_with_json_obj.index("')")
 json_data = string_with_json_obj[ind_start:ind_end]
-
 json_data = json_data.encode('utf8').decode('unicode_escape')
 data = json.loads(json_data)
 print(data)

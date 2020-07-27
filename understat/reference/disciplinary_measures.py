@@ -4,6 +4,15 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+'''
+-- LIVE CODE --
+Live code implementation of a web scraping session of the website understat.com
+based on the documentation provided in the python script called 'understat_scraper.py'
+This code must be cleaned and optimized to retrieve periodically and smoothly the data from
+understat.com and store those in a csv local database for consequent analysis and studies
+-- LIVE CODE --
+'''
+
 # match with yellow cards, red cards and penalties
 url = 'https://understat.com/match/7877'
 res = requests.get(url)
@@ -38,15 +47,19 @@ for message in json_string_with_data:
 # really i don't know wtf this code up here does, hope it does well
 # print(data[0])
 # print(data[1])
+
 # looks unbelievable the result, good job guy on the web
+
 # let's make it better anyway and do it looping over strings in json_string_with_data
 # ok done, i'm too fucking smart, wish some google recruiter is watching
+
 # now, what the hell is incapsulated in this json message? let's discover it.
 # first of all i'm planning to roughly copy paste it into an online json formatter and let's see
 # if there is something interesting before have a party
 # FUCK YES. In the json file coming from the tag roastersData I can clearly see the indication about the
 # yellow card!!!
 # for today that's all. Let's continue tomorrow. Super excited.
+
 # from data[0] we can take the information about penalties
 # from data[1] we can take information about yellow and red cards
 # let's see how the data keys are like
@@ -54,6 +67,7 @@ for message in json_string_with_data:
 # print(data[1].keys())
 # ok the keys are just dividing the home (h) and the away team
 # save those info in a data set
+
 # also if I only want the disciplinary measures why don't we take the information about
 # all the players who played a game?
 home = data[1]['h']
